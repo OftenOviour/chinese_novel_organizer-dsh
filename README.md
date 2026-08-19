@@ -102,10 +102,12 @@
 
 ## 使用
 
+如果你只想使用此项目，直接对你的agent提出你要创作的主题即可，它会处理好所有准备工作。
+
 1. **初始化项目**：在项目目录运行 `python novel-cli/cli.py init .`（首次会复制 CLI 到项目内）
 2. 按 guides 顺序：初始化 → 素材库 → 剧情树 → 逐级创作 → 日志 → 风格 → 去 AI 味 → 写作原则
 3. 写作流程：L1 梗概 → 确认 → L2 分卷 → 确认 → L3 事件 → 确认 → L4 正文 → 确认 → `publish` 导出到 `contents/`
-4. 在L4正文层，可以对agent生成的md文件进行批注，采用“<...>”的形式。agent会读取其中内容作为提示词，并结合其附近的内容执行命令。
+4. 在L4正文层，可以对agent生成的md文件进行批注，采用“<...>”的形式。agent会读取其中内容作为提示词，并结合其附近的内容执行要求。
 
 详细命令见 `agent-presets/novel/skills/novel-write/references/cli-cheatsheet.md`。
 
