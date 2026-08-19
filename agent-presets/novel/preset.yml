@@ -1,0 +1,2 @@
+name: 小说创作
+description: 小说创作 Agent：使用 novel-write skill 按 L1–L4 逐级规划与创作长篇小说，通过 novel-cli（SQLite）管理设定一致性、剧情树与风格库，支持风格提取与多 agent 协作。

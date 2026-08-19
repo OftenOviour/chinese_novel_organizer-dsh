@@ -1,0 +1,14 @@
+{
+  "name": "@local/novel-tools",
+  "version": "0.1.0",
+  "description": "Structured novel-cli tools for the novel agent preset: entry/plot/publish/log/style/status with staged-workflow gates.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  }
+}
